@@ -1,3 +1,6 @@
+// 2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
+// What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
+
 let array = []
 for (let i = 100000000; i <= 999999999; i++) {
     if (i % 1 == 0){
